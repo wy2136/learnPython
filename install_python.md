@@ -4,7 +4,7 @@
 
 ## Some Concepts
 
-* **Python**: the language and platform.
+* **Python**: the language and the platform.
 * **Python packages**: program units for different tasks.
 * **conda**: a package that manages packages (can also manage non-Python packages).
 * **Anaconda**: a free and open-source distribution of the Python (and R).
@@ -21,10 +21,12 @@
 > For macOS select Python version 3.x with name `Miniconda3 MacOSX 64-bit bash`
 
 2. Install. Open the terminal, navigate to where the installer is donwloaded and run the following command:
+
         bash Miniconda3-latest-MacOSX-x86_64.sh
 > Follow the prompts on the installer screens. Accept the defaults if not sure about the settings.
 
 3. Test. Open a new terminal window and run the following command:
+
         conda list
 > A list of installed packages will appear for a successful installation.
 
