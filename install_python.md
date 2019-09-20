@@ -18,17 +18,19 @@
 > This following instructions focus on macOS. For other operating systems, please read: [Linux](https://conda.io/projects/conda/en/latest/user-guide/install/linux.html#install-linux-silent), [Windows](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html).
 
 1. Download the installer at [this webpage](https://docs.conda.io/en/latest/miniconda.html).
-> For macOS select Python version 3.x with name `Miniconda3 MacOSX 64-bit bash`
+    > For macOS select Python version 3.x with name `Miniconda3 MacOSX 64-bit bash`
 
 2. Install. Open the terminal, navigate to where the installer is donwloaded and run the following command:
 
         bash Miniconda3-latest-MacOSX-x86_64.sh
-> Follow the prompts on the installer screens. Accept the defaults if not sure about the settings.
+
+    > Follow the prompts on the installer screens. Accept the defaults if not sure about the settings.
 
 3. Test. Open a new terminal window and run the following command:
 
         conda list
-> A list of installed packages will appear for a successful installation.
+
+    > A list of installed packages will appear for a successful installation.
 
 ## Install Python Packages
 After the installation of Miniconda, we already have conda, Python and some limited number of Python packages. But that's not enough for doing research. We still need some core packages popular in geosciences, where `conda` can help us:
