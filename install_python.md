@@ -1,7 +1,7 @@
 # Install Miniconda and Python Packages
 * Wenchang Yang (wenchang@princeton.edu)
 * Department of Geosciences, Princeton University
------
+
 ## Some Concepts
 
 * **Python**: the language and platform.
