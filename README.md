@@ -1,5 +1,5 @@
 # learnPython
-Python learning stuff
+Python learning stuff for the 2019 Junior Colloquium in the Department of Geosciences at Princeton University.
 
 ### 1. Python Installing and Basics
 * [Slides](https://docs.google.com/presentation/d/1ug_xLaLQs1eXZPw54llCSflbR3_6Sv7Pp-Ud-MvyPmk/edit?usp=sharing)
