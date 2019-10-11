@@ -1,3 +1,6 @@
+# Work on Remote Server
+Tips and cookbooks related to working on a remote server.
+
 ### Run graphical Linux applications on Windows 10
 https://seanthegeek.net/234/graphical-linux-applications-bash-ubuntu-windows/
 
@@ -24,7 +27,7 @@ https://seanthegeek.net/234/graphical-linux-applications-bash-ubuntu-windows/
 
         ssh-copy-id username@remote_server
 
-### Open Jupyter notebook on remote server and access it in local machine
+### Open Jupyter notebook on remote server and access it at local machine
 1. Remote server terminal
 
         jupyter-notebook --no-browser --port=8899 --ip=127.0.0.1
