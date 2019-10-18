@@ -42,3 +42,6 @@ https://seanthegeek.net/234/graphical-linux-applications-bash-ubuntu-windows/
 3. Local machine browser
 
         http://localhost:8888
+
+### The jupyterhub server at Princeton
+[https://github.com/Resplandy/climate-hpc/blob/master/jupyterhub.md](https://github.com/Resplandy/climate-hpc/blob/master/jupyterhub.md)
