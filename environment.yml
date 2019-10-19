@@ -1,0 +1,9 @@
+name: jc 
+channels:
+  - conda-forge
+dependencies:
+  - numpy 
+  - matplotlib
+  - netCDF4
+  - xarray
+  - ipykernel
