@@ -12,5 +12,10 @@ Sep. 30, 2019. By Wenchang Yang.
 Oct. 7, 2019. By Shiv Priyam Raghuraman.
 
 ### 3. Plot Maps with Python
-Oct. 14. 2019. By Julius Busecke. 
+Oct. 14. 2019. By Julius Busecke.
 * [Notebook](https://mybinder.org/v2/gh/jbusecke/teaching/master?filepath=notebooks%2FTutorial_plotting_maps.ipynb)
+
+### 4. Time series
+Oct. 21, 2019. By Wenchang Yang
+* [Notebook](https://nbviewer.jupyter.org/github/wy2136/learnPython/blob/master/04_TimeSeries.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/wy2136/learnPython/master?filepath=04_TimeSeries.ipynb)
