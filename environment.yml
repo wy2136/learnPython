@@ -6,5 +6,5 @@ dependencies:
   - scipy
   - matplotlib
   - netCDF4
-  - xarray
+  - xarray=0.13
   - ipykernel
