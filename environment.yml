@@ -2,9 +2,10 @@ name: jc
 channels:
   - conda-forge
 dependencies:
+  - python=3.6
   - numpy 
   - scipy
   - matplotlib
   - netCDF4
-  - xarray=0.13
+  - xarray
   - ipykernel
