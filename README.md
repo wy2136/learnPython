@@ -17,5 +17,5 @@ Oct. 14. 2019. By Julius Busecke.
 
 ### 4. Time series
 Oct. 21, 2019. By Wenchang Yang
-* [notebook view](https://nbviewer.jupyter.org/github/wy2136/learnPython/blob/master/04_TimeSeries.ipynb)
+* [notebook view](https://nbviewer.jupyter.org/format/slides/github/wy2136/learnPython/blob/master/04_TimeSeries.ipynb)
 * [practive on the cloud](https://colab.research.google.com/drive/1-6ntvt1mvgQpCMDzBKv5NshVRW6Vzqvp)
