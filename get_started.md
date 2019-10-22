@@ -6,7 +6,7 @@ https://seanthegeek.net/234/graphical-linux-applications-bash-ubuntu-windows/
 
 ### ssh login
 
-        ssh username@remote_server
+        ssh -Y username@remote_server
 
 ### Inquire information from netCDF files
 
