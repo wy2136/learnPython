@@ -7,6 +7,10 @@ https://seanthegeek.net/234/graphical-linux-applications-bash-ubuntu-windows/
 ### ssh login
 
         ssh -Y username@remote_server
+       
+e.g. 
+        
+        ssh -Y punetid@tigressdata.princeton.edu
 
 ### Inquire information from netCDF files
 
