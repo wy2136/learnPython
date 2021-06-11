@@ -34,14 +34,22 @@ e.g.
 ### Open Jupyter notebook on remote server and access it at local machine
 1. Remote server terminal
 
-        jupyter-notebook --no-browser --port=8899 --ip=127.0.0.1
+        jupyter notebook --no-browser --port=8899 --ip=127.0.0.1
 > port 8899 might be unavailable, in which case a different port # may be used.
+
+In case you want to use Jupyter lab, you can run the following command instead:
+
+        jupyter lab --no-browser --port=8899 --ip=127.0.0.1
 
 
 2. Local machine terminal
 
-        ssh -NL localhost:8888:localhost:8899 remote_server
+        ssh -NL localhost:8888:localhost:8899 username@remote_server
 > use the assigned port number in step 1 to replace 8899 when applicable.
+
+In case you are not allowed to log in the remote server (e.g. tigressdata.princeton.edu) directly from an outside network, a jump server (e.g. nobel.princeton.edu) is needed if you do not want to use VPN:
+
+        ssh -N -J username@jump_server -L localhost:8888:localhost8899 username@remote_server
 
 3. Local machine browser
 
