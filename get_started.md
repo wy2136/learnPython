@@ -44,7 +44,7 @@ In case you want to use Jupyter lab, you can run the following command instead:
 
 2. Local machine terminal
 
-        ssh -NL localhost:8888:localhost:8899 username@remote_server
+        ssh -NL localhost:8899:localhost:8899 username@remote_server
 > use the assigned port number in step 1 to replace 8899 when applicable.
 
 In case you are not allowed to log in the remote server (e.g. tigressdata.princeton.edu) directly from an outside network, a jump server (e.g. nobel.princeton.edu) is needed if you do not want to use VPN:
