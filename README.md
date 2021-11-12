@@ -1,5 +1,6 @@
 # learnPython
 Python learning stuff for the 2019 Junior Colloquium in the Department of Geosciences at Princeton University.
+See also [JC2020](./JC2020), [JC2021](./JC2021).
 
 ### 1. Python Installing and Basics
 Sep. 30, 2019. By Wenchang Yang.
