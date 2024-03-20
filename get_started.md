@@ -31,6 +31,23 @@ e.g.
 
         ssh-copy-id username@remote_server
 
+### ssh multiplexing
+Save the ssh connection to avoid repeated authentifications. One example is [here](https://rc.byu.edu/wiki/index.php?page=SSH+Multiplexing).
+1. edit the ssh config file
+
+        vi ~/.ssh/config
+
+2. add the following lines to the config file and save.
+
+        Host tigercpu tc
+                HostName tigercpu.princeton.edu
+                User your_puID
+                ControlMaster auto
+                ControlPersist yes
+                ControlPath ~/.ssh/%r@%h:%p
+                ServerAliveInterval 120
+                ForwardX11 yes
+
 ### Open Jupyter notebook on remote server and access it at local machine
 1. Remote server terminal
 
