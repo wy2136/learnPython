@@ -12,6 +12,14 @@ e.g.
         
         ssh -Y punetid@tigressdata.princeton.edu
 
+### Some unix/linux knowledge and skills
+
+* See this [link](https://www.ks.uiuc.edu/Training/Tutorials/Reference/unixprimer.html).
+
+### Some vim editor knowledge and skills
+
+* See this [link](https://opensource.com/article/19/3/getting-started-vim).
+
 ### Inquire information from netCDF files
 
         ncdump -h xxxx.nc
@@ -39,8 +47,8 @@ Save the ssh connection to avoid repeated authentifications. One example is [her
 
 2. add the following lines to the config file and save.
 
-        Host tigercpu tc
-                HostName tigercpu.princeton.edu
+        Host tigressdata tg
+                HostName tigressdata.princeton.edu
                 User your_puID
                 ControlMaster auto
                 ControlPersist yes
@@ -64,7 +72,7 @@ In case you want to use Jupyter lab, you can run the following command instead:
         ssh -NL localhost:8899:localhost:8899 username@remote_server
 > use the assigned port number in step 1 to replace 8899 when applicable.
 
-In case you are not allowed to log in the remote server (e.g. tigressdata.princeton.edu) directly from an outside network, a jump server (e.g. nobel.princeton.edu) is needed if you do not want to use VPN:
+In case you are not allowed to log in the remote server (e.g. tigressdata.princeton.edu) directly from an outside network, a jump server (e.g. nobel.princeton.edu, or tigressgateway.princeton.edu) is needed if you do not want to use VPN:
 
         ssh -N -J username@jump_server -L localhost:8899:localhost8899 username@remote_server
 
